@@ -12,7 +12,7 @@ void menu()
     cout << "5. Process returns" << endl;
     cout << "6. List books" << endl;
     cout << "0. Quit" << endl;
-    cout << "➜ ";
+    cout << "-> ";
 }
 
 int main()
@@ -20,7 +20,7 @@ int main()
     Library lib;
 
     Book *b1 = new Book(1, "1984", "George Orwell", "Dystopian");
-    Book *b2 = new Book(2, "Dune", "Frank Herbert", "Sci‑Fi");
+    Book *b2 = new Book(2, "Dune", "Frank Herbert", "SciFi");
     lib.addBook(b1);
     lib.addBook(b2);
 
